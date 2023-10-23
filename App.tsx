@@ -12,7 +12,7 @@ function HomeScreen() {
     <View
       style={{
         height: windowHeight - headerHeight,
-        backgroundColor: "pink",
+        backgroundColor: "black",
       }}
     />
   );
@@ -25,7 +25,7 @@ function App() {
     <NavigationContainer
       theme={{
         ...DefaultTheme,
-        colors: { ...DefaultTheme.colors, background: "green" },
+        colors: { ...DefaultTheme.colors, background: "white" },
       }}
     >
       <Stack.Navigator>
