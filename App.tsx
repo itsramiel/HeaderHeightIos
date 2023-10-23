@@ -10,7 +10,10 @@ function HomeScreen() {
   const headerHeight = useHeaderHeight();
   return (
     <View
-      style={{ height: windowHeight - headerHeight, backgroundColor: "pink" }}
+      style={{
+        height: windowHeight - headerHeight,
+        backgroundColor: "pink",
+      }}
     />
   );
 }
